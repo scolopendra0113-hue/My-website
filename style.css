@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*Header*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 24px 32px 84px 32px;
+}
+
+
+.logo {
+    background-color: black;
+    width: 100px;
+    height: 52px;
+}
+
+.container {
+    width: 1215px;
+    margin-left: auto;
+    margin-right: auto;
+}
