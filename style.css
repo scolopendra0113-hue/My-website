@@ -12,6 +12,11 @@ body {
     
 }
 
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
 a {
     text-decoration: none;
     color: #959595;
@@ -63,4 +68,74 @@ nav {
     width: 1280px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/*Welcome Page*/
+
+.welcome {
+}
+.welcome-info {
+}
+
+.hi {
+    font-size: 24px;
+    font-weight: 600;
+
+    margin-top: 135px;
+
+    color: #707070;
+}
+
+.profession {
+    font-size: 70px;
+    font-weight: 900;
+
+    margin-top: 24px;
+    margin-bottom: 33px;
+
+    background-image: linear-gradient(135deg, #431380, #9D4CCC, #682699);
+    background-clip: text;
+    color: transparent;
+}
+
+.messaging-app {
+    display: flex;
+    
+    gap: 20px;
+
+    margin-bottom: 62px;
+}
+
+.app {
+    width: 40px;
+    height: 40px;
+}
+
+.welcome-btn {
+    width: 156px;
+    height: 48px;
+
+    font-size: 20px;
+
+    margin-bottom: 80px;
+}
+
+.welcome-stats {
+    display: flex;
+
+    width: 535px;
+    height: 135px;
+
+    background-color: rgba(140, 20, 180, 0.35);
+
+}
+.stat {
+}
+.stat-num {
+}
+.stat-desc {
+}
+.vertical-line {
+}
+.welcome-pic {
 }
