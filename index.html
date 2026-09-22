@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Web Coder</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <!-- Шапка сайта -->
     <header class="container">
-            <img src="./Grafics/Logo.svg" alt="WEB DEV" class="logo">
+            <img src="./Grafics/logo.png" alt="WEB DEV" class="logo">
             <nav>
                 <a href="#!" class="nav-btn" id="active-link">Главная</a>
                 <a href="#!" class="nav-btn">Обо Мне</a>
@@ -16,10 +17,13 @@
                 <a href="#!" class="nav-btn">Портфолио</a>
                 <a href="#!" class="nav-btn">Мессенджеры</a>
             </nav>
-            <a href="#!"><div class="btn">Нанять</div></a>
+            <a href="#!"><div class="btn btn__header">Нанять</div></a>
     </header>
+    <!-- Основное содержание -->
     <main>
+         <!-- Привественная секция -->
         <section class="welcome container">
+            
             <div class="welcome-info">
                 <h4 class="hi">Здравствуйте, я</h4>
                 <h1 class="profession">ВЕБ Разработчик</h1>
@@ -49,6 +53,197 @@
             <div class="welcome-pic">
             </div>
         </section>
+        <section class="services">
+        <div class="container">
+            <!-- Заголовок и подзаголовок секции -->
+        <div class="services__header">
+            <h2 class="services__title">Сервисы</h2>
+            <p class="services__subtitle">
+                    Способы, при помощи которых я могу создать ваш сайт
+            </p>
+        </div>
+
+        <!-- Сетка карточек -->
+        <div class="services__grid">
+            
+            <!-- Карточка 1 (повторите этот блок 6 раз) -->
+            <div class="service-card">
+                <div class="service-card__icon">
+                    <!-- Оранжевая иконка (замените на вашу SVG или картинку) -->
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 2a5 5 0 0 0-5 5v3a5 5 0 0 0 10 0V7a5 5 0 0 0-5-5z"/>
+                        <path d="M19 10v1a7 7 0 0 1-14 0v-1"/>
+                    </svg>
+                </div>
+                <h3 class="service-card__title">App Design</h3>
+                <p class="service-card__text">
+                    Lorem ipsum dolor sit amet. Imperdiet Lorem ipsum dolor sit amet consectetur
+                </p>
+            </div>
+
+            <!-- Карточка 2 -->
+            <div class="service-card">
+                <div class="service-card__icon">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a5 5 0 0 0-5 5v3a5 5 0 0 0 10 0V7a5 5 0 0 0-5-5z"/><path d="M19 10v1a7 7 0 0 1-14 0v-1"/></svg>
+                </div>
+                <h3 class="service-card__title">App Design</h3>
+                <p class="service-card__text">
+                    Lorem ipsum dolor sit amet. Imperdiet Lorem ipsum dolor sit amet consectetur
+                </p>
+            </div>
+
+            <!-- Карточка 3 -->
+            <div class="service-card">
+                <div class="service-card__icon">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a5 5 0 0 0-5 5v3a5 5 0 0 0 10 0V7a5 5 0 0 0-5-5z"/><path d="M19 10v1a7 7 0 0 1-14 0v-1"/></svg>
+                </div>
+                <h3 class="service-card__title">App Design</h3>
+                <p class="service-card__text">
+                    Lorem ipsum dolor sit amet. Imperdiet Lorem ipsum dolor sit amet consectetur
+                </p>
+            </div>
+
+            <!-- Карточка 4 -->
+            <div class="service-card">
+                <div class="service-card__icon">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a5 5 0 0 0-5 5v3a5 5 0 0 0 10 0V7a5 5 0 0 0-5-5z"/><path d="M19 10v1a7 7 0 0 1-14 0v-1"/></svg>
+                </div>
+                <h3 class="service-card__title">App Design</h3>
+                <p class="service-card__text">
+                    Lorem ipsum dolor sit amet. Imperdiet Lorem ipsum dolor sit amet consectetur
+                </p>
+            </div>
+
+            <!-- Карточка 5 -->
+            <div class="service-card">
+                <div class="service-card__icon">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a5 5 0 0 0-5 5v3a5 5 0 0 0 10 0V7a5 5 0 0 0-5-5z"/><path d="M19 10v1a7 7 0 0 1-14 0v-1"/></svg>
+                </div>
+                <h3 class="service-card__title">App Design</h3>
+                <p class="service-card__text">
+                    Lorem ipsum dolor sit amet. Imperdiet Lorem ipsum dolor sit amet consectetur
+                </p>
+            </div>
+
+            <!-- Карточка 6 -->
+            <div class="service-card">
+                <div class="service-card__icon">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a5 5 0 0 0-5 5v3a5 5 0 0 0 10 0V7a5 5 0 0 0-5-5z"/><path d="M19 10v1a7 7 0 0 1-14 0v-1"/></svg>
+                </div>
+                    <h3 class="service-card__title">App Design</h3>
+                    <p class="service-card__text">
+                        Lorem ipsum dolor sit amet. Imperdiet Lorem ipsum dolor sit amet consectetur
+                    </p>
+            </div>
+
+        </div>
+        </div>
+        </section>
+        <section class="portfolio">
+        <div class="container">
+        
+        <!-- Заголовок секции -->
+        <h2 class="portfolio__title">Portfolio</h2>
+
+        <!-- Фильтр категорий (Табы) -->
+        <div class="portfolio__filters">
+            <button class="portfolio__filter-btn active">All</button>
+            <button class="portfolio__filter-btn">Website Design</button>
+            <button class="portfolio__filter-btn">App Mobile Design</button>
+            <button class="portfolio__filter-btn">App Desktop</button>
+            <button class="portfolio__filter-btn">Braiding</button>
+        </div>
+
+        <!-- Сетка проектов -->
+        <div class="portfolio__grid">
+            
+            <!-- Карточка проекта 1 (продублируйте её 9 раз) -->
+            <div class="portfolio-item">
+                <div class="portfolio-item__image-box">
+                    <!-- Замените заглушку на реальное изображение макета -->
+                    <div class="portfolio-item__img-placeholder img-1"></div>
+                </div>
+                <div class="portfolio-item__meta">
+                    <span class="portfolio-item__name">Name Project</span>
+                    <span class="portfolio-item__category">Categories</span>
+                </div>
+            </div>
+
+            <!-- Пример карточки 2 -->
+            <div class="portfolio-item">
+                <div class="portfolio-item__image-box">
+                    <div class="portfolio-item__img-placeholder img-2"></div>
+                </div>
+                <div class="portfolio-item__meta">
+                    <span class="portfolio-item__name">Name Project</span>
+                    <span class="portfolio-item__category">Categories</span>
+                </div>
+            </div>
+
+            <!-- Пример карточки 3 -->
+            <div class="portfolio-item">
+                <div class="portfolio-item__image-box">
+                    <div class="portfolio-item__img-placeholder img-3"></div>
+                </div>
+                <div class="portfolio-item__meta">
+                    <span class="portfolio-item__name">Name Project</span>
+                    <span class="portfolio-item__category">Categories</span>
+                </div>
+            </div>
+
+            <!-- Добавьте еще 6 карточек по аналогии для полной сетки из 9 штук -->
+
+        </div>
+    </div>
+</section>
+    <section class="contact">
+    <div class="container">
+
+        <div class="contact__header">
+            <h2 class="contact__title">Contact me</h2>
+            <p class="contact__subtitle">Cultivating Connections: Reach Out And Connect With Me</p>
+        </div>
+
+        <form class="contact__form">
+            <!-- Левая колонка полей -->
+            <div class="contact__column">
+                <div class="contact__field">
+                    <input type="text" placeholder="Name" class="contact__input" required>
+                </div>
+                <div class="contact__field">
+                    <input type="tel" placeholder="Phone Number" class="contact__input">
+                </div>
+                <div class="contact__field">
+                    <input type="text" placeholder="Timeline" class="contact__input">
+                </div>
+            </div>
+
+                <!-- Правая колонка полей -->
+            <div class="contact__column">
+                <div class="contact__field">
+                    <input type="email" placeholder="Email" class="contact__input" required>
+                </div>
+                <div class="contact__field contact__field--select">
+                    <select class="contact__input contact__select" required>
+                        <option value="" disabled selected hidden>Service Of Interest</option>
+                        <option value="website">Website Design</option>
+                        <option value="mobile">App Mobile Design</option>
+                        <option value="desktop">App Desktop</option>
+                    </select>
+                </div>
+                <div class="contact__field">
+                    <textarea placeholder="Project Details..." class="contact__input contact__textarea" rows="4"></textarea>
+                </div>
+            </div>
+
+            <!-- Блок с кнопкой (выравнивание по правому краю) -->
+            <div class="contact__actions">
+                <button type="submit" class="btn-send">Send</button>
+            </div>
+        </form>
+    </div>
+</section>
+
     </main>
 </body>
 </html>
